@@ -1,13 +1,15 @@
 package com.eot.sample.android;
 
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
 import com.eot.sample.Hooks;
+
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
-import org.openqa.selenium.By;
-import org.testng.annotations.Test;
 
 public class FirstAppiumTest
         extends Hooks {
